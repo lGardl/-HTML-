@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html style="color:green">
     <head>
         <title> html файл 04.10.</title>
         
         <meta charset="utf-8">
 
-        <link rel="shortcut icon" href="https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg">
+        <link rel="shortcut icon" href="https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg">        
 
+        <link rel="tylesheet" href="style.css">
+
+        <style>
+            table {
+                color:blue
+            }
+        </style>
 
     </head>
 
     <body>
 
-        <h1 id="Это первый якорь на странице">Это второй день работы с html файлами</h1>
+        <h1 id="Это первый якорь на странице" class="privet">Это второй день работы с html файлами</h1>
         <p>В этот день работаю по блакноту "Термины HTML"</p> 
         <p>
              практикую перенсо строки что бы
              <br> отработаь без подсказок 
         </p>
-        <p>
+        <p id="test-id">
             Сейчас практикую <em>курсив</em> что бы отработать до <em>автоматизма</em>
         </p>
         <p>
@@ -43,16 +50,22 @@
         <hr>
 
         <h2> Практика со списками </h2>
-        <ul>
+        <ul class="list">
             <li>Первый элемент списка </li>
+            <ul class="list2">
+                <li>Первый жлемент списка на втором уровне </li>
+            </ul>
             <li>Второй элементс писка </li>
+            <ul class="list2">    
+                <li>Второй жлемент списка на втором уровне </li>
+            </ul>
             <li>Третий элемент списка </li>
         </ul>
 
         <h2>Практика с таблицами</h2>
         <p>* в первом html файле закасячились картинки в таблице</p>
 
-        <table border="2"> 
+        <table border="2" class="table-red table-bold " > 
             <thead>
                 <tr>
                     <th>Товар</th>
@@ -80,6 +93,14 @@
                     </td>
             </tfoot>
         </table>
+
         <input type="text">
+
+        <br>
+
+        <a href="https://youtu.be/4jYYHaTwWvY" class="font-size-md color-red">первая ссылка</a>
+        <br>
+        <a href="https://youtu.be/4jYYHaTwWvY" class="font-size-md color-gray">вторая ссылка</a>
+        
     </body>
 </html>

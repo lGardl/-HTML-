@@ -1,0 +1,55 @@
+table {
+    color:red;
+    border-radius: 5px;
+    border: 3px solid blue;
+}
+
+[href="https://vk.com/id167004730"] {
+    color: orange;
+}
+
+[href="#Это первый якорь на странице"] {
+    color: orange;
+}
+[href="file:///C:/Users/%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC/Desktop/HTML/01.10/index.html"] {
+    color: aqua;
+}
+
+
+.privet {
+    color:green;
+}
+
+.table-red {
+    color: red;
+}
+
+.table-bold {
+    font-weight: bold;
+}
+
+#test-id {
+    font-weight: bold;
+}
+
+html tr {
+    color: darkblue;
+}
+
+.list > li {
+    color: black;
+}
+.list2 > li {
+    color: darkturquoise;
+}
+.font-size-md {
+    font-size: 18mx;
+}
+
+.font-size-md.color-red {
+    color:red;
+}
+
+.font-size-md.color-gray {
+    color:gray;
+}
